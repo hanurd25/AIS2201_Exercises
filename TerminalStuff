@@ -1,0 +1,56 @@
+PS C:\Users\hanur\Documents\UNIVERSITY\signalbehandlingAIS2201\signalbehandlingAIS2201> git fetch upstream
+PS C:\Users\hanur\Documents\UNIVERSITY\signalbehandlingAIS2201\signalbehandlingAIS2201>
+PS C:\Users\hanur\Documents\UNIVERSITY\signalbehandlingAIS2201\signalbehandlingAIS2201> git merge upstream/master
+error: Your local changes to the following files would be overwritten by merge:
+        Exercise_6/0_Index.ipynb
+        Exercise_6/2_Device_config.ipynb
+        Exercise_6/3_Buffer_management.ipynb
+Please commit your changes or stash them before you merge.
+Aborting
+Merge with strategy ort failed.
+PS C:\Users\hanur\Documents\UNIVERSITY\signalbehandlingAIS2201\signalbehandlingAIS2201>
+PS C:\Users\hanur\Documents\UNIVERSITY\signalbehandlingAIS2201\signalbehandlingAIS2201> git merge upstream/master
+Auto-merging Exercise_6/0_Index.ipynb
+Auto-merging Exercise_6/2_Device_config.ipynb
+Auto-merging Exercise_6/3_Buffer_management.ipynb
+Merge made by the 'ort' strategy.
+ ...layer-drivers-stmicroelectronics-checkpoint.pdf | Bin 0 -> 34176589 bytes
+ .../2_Device_config-checkpoint.ipynb               |  10 +-
+ Exercise_6/0_Index.ipynb                           |   2 +-
+ Exercise_6/2_Device_config.ipynb                   |  10 +-
+ Exercise_6/3_Buffer_management.ipynb               |   2 +-
+ .../.ipynb_checkpoints/HwTimConfig-checkpoint.png  | Bin 0 -> 1169152 bytes
+ Exercise_7/Figures/FreqStepTest_LF.png             | Bin 0 -> 32497 bytes
+ Exercise_7/Figures/sineTest_LF.png                 | Bin 0 -> 54800 bytes
+ Exercise_7/Figures/wavfileTest_LF.png              | Bin 0 -> 83185 bytes
+ Exercise_7/Index.ipynb                             | 115 +++++
+ Exercise_7/Test1_Frequency_Step.ipynb              |  67 +++
+ Exercise_7/Test2_Pure_Sine.ipynb                   |  70 +++
+ Exercise_7/Test3_Audio.ipynb                       |  69 +++
+ Exercise_7/Test4_Extra_cases.ipynb                 |  58 +++
+ Exercise_7/baseline_algorithm.py                   |  31 ++
+ Exercise_7/sample_audio/A4_oboe.wav                | Bin 0 -> 231468 bytes
+ Exercise_7/sample_audio/B_oboe.wav                 | Bin 0 -> 153644 bytes
+ Exercise_7/sample_audio/C#_oboe.wav                | Bin 0 -> 150572 bytes
+ Exercise_7/sample_audio/D_oboe.wav                 | Bin 0 -> 166956 bytes
+ .../sample_audio/Zauberfl\303\266te_vocal.wav"     | Bin 0 -> 394284 bytes
+ .../sample_audio/_04_Frekvensrepresentasjon.py     | 480 +++++++++++++++++++++
+ 21 files changed, 904 insertions(+), 10 deletions(-)
+ create mode 100644 Exercise_3/Documents/.ipynb_checkpoints/um1725-description-of-stm32f4-hal-and-lowlayer-drivers-stmicroelectronics-checkpoint.pdf
+ create mode 100644 Exercise_6/Figures/.ipynb_checkpoints/HwTimConfig-checkpoint.png
+ create mode 100644 Exercise_7/Figures/FreqStepTest_LF.png
+ create mode 100644 Exercise_7/Figures/sineTest_LF.png
+ create mode 100644 Exercise_7/Figures/wavfileTest_LF.png
+ create mode 100644 Exercise_7/Index.ipynb
+ create mode 100644 Exercise_7/Test1_Frequency_Step.ipynb
+ create mode 100644 Exercise_7/Test2_Pure_Sine.ipynb
+ create mode 100644 Exercise_7/Test3_Audio.ipynb
+ create mode 100644 Exercise_7/Test4_Extra_cases.ipynb
+ create mode 100644 Exercise_7/baseline_algorithm.py
+ create mode 100644 Exercise_7/sample_audio/A4_oboe.wav
+ create mode 100644 Exercise_7/sample_audio/B_oboe.wav
+ create mode 100644 Exercise_7/sample_audio/C#_oboe.wav
+ create mode 100644 Exercise_7/sample_audio/D_oboe.wav
+ create mode 100644 "Exercise_7/sample_audio/Zauberfl\303\266te_vocal.wav"
+ create mode 100644 Exercise_7/sample_audio/_04_Frekvensrepresentasjon.py
+PS C:\Users\hanur\Documents\UNIVERSITY\signalbehandlingAIS2201\signalbehandlingAIS2201>

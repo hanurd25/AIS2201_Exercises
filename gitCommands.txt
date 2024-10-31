@@ -1,0 +1,2 @@
+git stash                             # saving the unsaved changes
+git merge upstream/master               #collecting new files from the remote reposatory
